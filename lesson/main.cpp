@@ -15,10 +15,13 @@ int main() {
 	{
 		std::cout << "Введите команду: ";
 		std::cin >> message;
-		std::cout << std::endl;
 
 		if (message == "Привет") {
 			std::cout << "Привет, кожанный мешок!" << std::endl;
+		}
+
+		if (message == "Пока") {
+			std::cout << "Покакаешь дома" << std::endl;
 		}
 	}
 
